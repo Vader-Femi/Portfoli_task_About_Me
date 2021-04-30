@@ -12,28 +12,30 @@ class MyApp extends StatelessWidget {
         body: SafeArea(
           child: Column(
             children: [
-              Expanded(
-                child: Row(
-                  children: [
-                    Expanded(
-                      flex: 30,
-                      child: Container(
-                        child: Image.asset('assets/images/Me3.jpg'),
+              Center(
+                child: Expanded(
+                  child: Row(
+                    children: [
+                      Expanded(
+                        flex: 30,
+                        child: Container(
+                          child: Image.asset('assets/images/Me3.jpg'),
+                        ),
                       ),
-                    ),
-                    Expanded(
-                      flex: 40,
-                      child: Container(
-                        child: Image.asset('assets/images/Me.jpg'),
+                      Expanded(
+                        flex: 40,
+                        child: Container(
+                          child: Image.asset('assets/images/Me.jpg'),
+                        ),
                       ),
-                    ),
-                    Expanded(
-                      flex: 30,
-                      child: Container(
-                        child: Image.asset('assets/images/Me2.jpg'),
+                      Expanded(
+                        flex: 30,
+                        child: Container(
+                          child: Image.asset('assets/images/Me2.jpg'),
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ),
               Expanded(
