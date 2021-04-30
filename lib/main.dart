@@ -16,16 +16,19 @@ class MyApp extends StatelessWidget {
                 child: Row(
                   children: [
                     Expanded(
+                      flex: 30,
                       child: Container(
                         child: Image.asset('assets/images/Me3.jpg'),
                       ),
                     ),
                     Expanded(
+                      flex: 40,
                       child: Container(
                         child: Image.asset('assets/images/Me.jpg'),
                       ),
                     ),
                     Expanded(
+                      flex: 30,
                       child: Container(
                         child: Image.asset('assets/images/Me2.jpg'),
                       ),
@@ -39,10 +42,10 @@ class MyApp extends StatelessWidget {
                     child: Text(
                       'Okedeyi Oluwafemi',
                       style: TextStyle(
-                          color: Colors.black54,
-                          fontSize: 30,
-                          fontStyle: FontStyle.normal,
-                          fontWeight: FontWeight.bold),
+                        color: Colors.black54,
+                        fontSize: 30,
+                        fontStyle: FontStyle.normal,
+                        fontWeight: FontWeight.bold),
                     ),
                   ),
                 ),
