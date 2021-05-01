@@ -82,9 +82,11 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
                 Expanded(
+                  flex: 1,
                   child: Container(
-                    padding: EdgeInsets.all(4.5),
+                    padding: EdgeInsets.all(7),
                     margin: EdgeInsets.all(7.0),
+                    alignment: Alignment.topLeft,
                     decoration: BoxDecoration(
                       color: Colors.grey[850],
                       borderRadius: BorderRadius.all(
@@ -92,36 +94,29 @@ class MyApp extends StatelessWidget {
                       ),
                     ),
                     child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Expanded(
-                          child: Text(
-                            'Skills ',
-                            style: TextStyle(
-                              backgroundColor: Colors.grey[900],
-                              color: Colors.white,
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold,
+                          child: Center(
+                            child: Text(
+                              'Skills ',
+                              style: TextStyle(
+                                backgroundColor: Colors.grey[900],
+                                color: Colors.white,
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
                           ),
                         ),
+                        //todo add icons
                         Expanded(
                           child: Row(
                             children: [
                               Expanded(
                                 child: Text(
-                                  'Android',
-                                  textAlign: TextAlign.center,
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 14,
-                                    fontWeight: FontWeight.w600,
-                                  ),
-                                ),
-                              ),
-                              Expanded(
-                                child: Text(
                                   'Kotlin',
-                                  textAlign: TextAlign.center,
+                                  textAlign: TextAlign.start,
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 14,
@@ -132,7 +127,24 @@ class MyApp extends StatelessWidget {
                               Expanded(
                                 child: Text(
                                   'Java',
-                                  textAlign: TextAlign.center,
+                                  textAlign: TextAlign.start,
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 14,
+                                    fontWeight: FontWeight.w600,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Expanded(
+                          child: Row(
+                            children: [
+                              Expanded(
+                                child: Text(
+                                  'Android',
+                                  textAlign: TextAlign.start,
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 14,
@@ -143,7 +155,7 @@ class MyApp extends StatelessWidget {
                               Expanded(
                                 child: Text(
                                   'Flutter',
-                                  textAlign: TextAlign.center,
+                                  textAlign: TextAlign.start,
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 14,
