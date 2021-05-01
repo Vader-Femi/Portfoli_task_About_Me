@@ -37,6 +37,7 @@ class MyApp extends StatelessWidget {
                                   'Attributes',
                                   textDirection: TextDirection.rtl,
                                   style: TextStyle(
+                                    backgroundColor: Colors.grey[900],
                                     color: Colors.white,
                                     fontSize: 25,
                                     fontWeight: FontWeight.bold,
