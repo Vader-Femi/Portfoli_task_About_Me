@@ -20,11 +20,22 @@ class MyApp extends StatelessWidget {
                   child: Container(
                     padding: EdgeInsets.all(4.5),
                     margin: EdgeInsets.all(7.0),
-                    color: Colors.grey[850],
+                    decoration: BoxDecoration(
+                      color: Colors.grey[850],
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(10.0),
+                      ),
+                    ),
                     child: Row(
                       children: [
                         Expanded(
                           child: Container(
+                            decoration: BoxDecoration(
+                              color: Colors.grey[850],
+                              borderRadius: BorderRadius.all(
+                                Radius.circular(10.0),
+                              ),
+                            ),
                             child: Image.asset('assets/images/Me3.jpg'),
                           ),
                         ),
@@ -33,21 +44,21 @@ class MyApp extends StatelessWidget {
                           child: Column(
                             children: [
                               Expanded(
-                                child: Text(
-                                  'Attributes',
-                                  textDirection: TextDirection.rtl,
-                                  style: TextStyle(
-                                    backgroundColor: Colors.grey[900],
-                                    color: Colors.white,
-                                    fontSize: 25,
-                                    fontWeight: FontWeight.bold,
+                                child: Container(
+                                  alignment: Alignment.center,
+                                  child: Text(
+                                    'Okedeyi Oluwafemi',
+                                    style: TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 22,
+                                        fontStyle: FontStyle.normal,
+                                        fontWeight: FontWeight.bold),
                                   ),
                                 ),
                               ),
                               Expanded(
                                 flex: 3,
                                 child: Container(
-                                  color: Colors.grey[850],
                                   child: Text(
                                     aboutMe,
                                     textDirection: TextDirection.ltr,
@@ -71,68 +82,69 @@ class MyApp extends StatelessWidget {
                   child: Container(
                     padding: EdgeInsets.all(4.5),
                     margin: EdgeInsets.all(7.0),
-                    color: Colors.grey[850],
+                    decoration: BoxDecoration(
+                      color: Colors.grey[850],
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(10.0),
+                      ),
+                    ),
                     child: Column(
                       children: [
                         Expanded(
                           child: Text(
-                            'Name: Okedeyi Oluwafemi',
+                            'Skills ',
                             style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 22,
-                                fontStyle: FontStyle.normal,
-                                fontWeight: FontWeight.bold),
+                              backgroundColor: Colors.grey[900],
+                              color: Colors.white,
+                              fontSize: 25,
+                              fontWeight: FontWeight.bold,
+                            ),
                           ),
                         ),
                         Expanded(
                           child: Row(
                             children: [
-                              Text(
-                                'Skills: ',
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 18,
-                                  fontStyle: FontStyle.normal,
-                                  fontWeight: FontWeight.w600,
-                                ),
-                              ),
                               Expanded(
                                 child: Text(
                                   'Android',
+                                  textAlign: TextAlign.center,
                                   style: TextStyle(
                                     color: Colors.white,
-                                    fontSize: 17,
-                                    fontWeight: FontWeight.w400,
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.w600,
                                   ),
                                 ),
                               ),
                               Expanded(
                                 child: Text(
                                   'Kotlin',
+                                  textAlign: TextAlign.center,
                                   style: TextStyle(
                                     color: Colors.white,
-                                    fontSize: 17,
-                                    fontWeight: FontWeight.w400,
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.w600,
                                   ),
                                 ),
                               ),
                               Expanded(
                                 child: Text(
                                   'Java',
+                                  textAlign: TextAlign.center,
                                   style: TextStyle(
                                     color: Colors.white,
-                                    fontSize: 17,
-                                    fontWeight: FontWeight.w400,
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.w600,
                                   ),
                                 ),
                               ),
                               Expanded(
                                 child: Text(
                                   'Flutter',
+                                  textAlign: TextAlign.center,
                                   style: TextStyle(
                                     color: Colors.white,
-                                    fontSize: 17,
-                                    fontWeight: FontWeight.w400,
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.w600,
                                   ),
                                 ),
                               ),
@@ -148,7 +160,12 @@ class MyApp extends StatelessWidget {
                   child: Container(
                     padding: EdgeInsets.all(4.5),
                     margin: EdgeInsets.all(7.0),
-                    color: Colors.grey[850],
+                    decoration: BoxDecoration(
+                      color: Colors.grey[850],
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(10.0),
+                      ),
+                    ),
                     alignment: Alignment.topLeft,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -224,8 +241,13 @@ class MyApp extends StatelessWidget {
                   child: Container(
                     padding: EdgeInsets.all(4.5),
                     margin: EdgeInsets.all(7.0),
-                    color: Colors.grey[850],
                     alignment: Alignment.topLeft,
+                    decoration: BoxDecoration(
+                      color: Colors.grey[850],
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(10.0),
+                      ),
+                    ),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -251,13 +273,13 @@ class MyApp extends StatelessWidget {
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 18,
-                              fontWeight: FontWeight.w600,
+                              fontWeight: FontWeight.w800,
                             ),
                           ),
                         ),
                         Expanded(
                           child: Text(
-                            '\t• @Femi_Okedeyi',
+                            '\t@Femi_Okedeyi',
                             textDirection: TextDirection.ltr,
                             textAlign: TextAlign.left,
                             style: TextStyle(
@@ -276,13 +298,13 @@ class MyApp extends StatelessWidget {
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 18,
-                              fontWeight: FontWeight.w600,
+                              fontWeight: FontWeight.w800,
                             ),
                           ),
                         ),
                         Expanded(
                           child: Text(
-                            '\t• @Vader-Femi',
+                            '\t@Vader-Femi',
                             textDirection: TextDirection.ltr,
                             textAlign: TextAlign.left,
                             style: TextStyle(
@@ -306,6 +328,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-var aboutMe = '• A Tech Enthusiast at heart with a passion for the '
+var aboutMe = 'A Tech Enthusiast at heart with a passion for the '
     'mobile phone industry and a love for cameras. Testing new '
     'boundaries in mobile app development with flutter';
