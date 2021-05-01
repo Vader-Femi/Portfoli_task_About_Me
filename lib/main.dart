@@ -12,33 +12,34 @@ class MyApp extends StatelessWidget {
         body: SafeArea(
           child: Column(
             children: [
-              Center(
-                child: Expanded(
-                  child: Row(
-                    children: [
-                      Expanded(
-                        flex: 30,
-                        child: Container(
-                          child: Image.asset('assets/images/Me3.jpg'),
-                        ),
+              Expanded(
+                flex: 2,
+                child: Row(
+                  children: [
+                    Flexible(
+                      fit: FlexFit.tight,
+                      child: Container(
+                        child: Image.asset('assets/images/Me3.jpg'),
                       ),
-                      Expanded(
-                        flex: 40,
-                        child: Container(
-                          child: Image.asset('assets/images/Me.jpg'),
-                        ),
+                    ),
+                    Flexible(
+                      flex: 2,
+                      fit: FlexFit.tight,
+                      child: Container(
+                        child: Image.asset('assets/images/Me.jpg'),
                       ),
-                      Expanded(
-                        flex: 30,
-                        child: Container(
-                          child: Image.asset('assets/images/Me2.jpg'),
-                        ),
+                    ),
+                    Flexible(
+                      fit: FlexFit.tight,
+                      child: Container(
+                        child: Image.asset('assets/images/Me2.jpg'),
                       ),
-                    ],
-                  ),
+                    ),
+                  ],
                 ),
               ),
               Expanded(
+                flex: 1,
                 child: Container(
                   child: Center(
                     child: Text(
@@ -53,6 +54,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Expanded(
+                flex: 2,
                 child: Container(
                   alignment: Alignment.topLeft,
                   child: Column(
@@ -120,6 +122,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Expanded(
+                flex: 2,
                 child: Container(
                   child: Center(
                     child: Text(
