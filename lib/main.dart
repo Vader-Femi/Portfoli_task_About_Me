@@ -65,8 +65,8 @@ class MyApp extends StatelessWidget {
                                     textAlign: TextAlign.center,
                                     style: TextStyle(
                                       color: Colors.white,
-                                      fontSize: 16,
-                                      fontWeight: FontWeight.w500,
+                                      fontSize: 14,
+                                      fontWeight: FontWeight.w700,
                                     ),
                                   ),
                                 ),
@@ -96,7 +96,7 @@ class MyApp extends StatelessWidget {
                             style: TextStyle(
                               backgroundColor: Colors.grey[900],
                               color: Colors.white,
-                              fontSize: 25,
+                              fontSize: 20,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
@@ -110,7 +110,7 @@ class MyApp extends StatelessWidget {
                                   textAlign: TextAlign.center,
                                   style: TextStyle(
                                     color: Colors.white,
-                                    fontSize: 18,
+                                    fontSize: 14,
                                     fontWeight: FontWeight.w600,
                                   ),
                                 ),
@@ -121,7 +121,7 @@ class MyApp extends StatelessWidget {
                                   textAlign: TextAlign.center,
                                   style: TextStyle(
                                     color: Colors.white,
-                                    fontSize: 18,
+                                    fontSize: 14,
                                     fontWeight: FontWeight.w600,
                                   ),
                                 ),
@@ -132,7 +132,7 @@ class MyApp extends StatelessWidget {
                                   textAlign: TextAlign.center,
                                   style: TextStyle(
                                     color: Colors.white,
-                                    fontSize: 18,
+                                    fontSize: 14,
                                     fontWeight: FontWeight.w600,
                                   ),
                                 ),
@@ -143,7 +143,7 @@ class MyApp extends StatelessWidget {
                                   textAlign: TextAlign.center,
                                   style: TextStyle(
                                     color: Colors.white,
-                                    fontSize: 18,
+                                    fontSize: 14,
                                     fontWeight: FontWeight.w600,
                                   ),
                                 ),
@@ -178,7 +178,7 @@ class MyApp extends StatelessWidget {
                               style: TextStyle(
                                 backgroundColor: Colors.grey[900],
                                 color: Colors.white,
-                                fontSize: 25,
+                                fontSize: 20,
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
@@ -191,7 +191,7 @@ class MyApp extends StatelessWidget {
                             textAlign: TextAlign.left,
                             style: TextStyle(
                               color: Colors.white,
-                              fontSize: 18,
+                              fontSize: 14,
                               fontWeight: FontWeight.w600,
                             ),
                           ),
@@ -203,7 +203,7 @@ class MyApp extends StatelessWidget {
                             textAlign: TextAlign.left,
                             style: TextStyle(
                               color: Colors.white,
-                              fontSize: 18,
+                              fontSize: 14,
                               fontWeight: FontWeight.w600,
                             ),
                           ),
@@ -215,7 +215,7 @@ class MyApp extends StatelessWidget {
                             textAlign: TextAlign.left,
                             style: TextStyle(
                               color: Colors.white,
-                              fontSize: 18,
+                              fontSize: 14,
                               fontWeight: FontWeight.w600,
                             ),
                           ),
@@ -227,7 +227,7 @@ class MyApp extends StatelessWidget {
                             textAlign: TextAlign.left,
                             style: TextStyle(
                               color: Colors.white,
-                              fontSize: 18,
+                              fontSize: 14,
                               fontWeight: FontWeight.w600,
                             ),
                           ),
@@ -259,7 +259,7 @@ class MyApp extends StatelessWidget {
                               style: TextStyle(
                                 backgroundColor: Colors.grey[900],
                                 color: Colors.white,
-                                fontSize: 25,
+                                fontSize: 20,
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
@@ -272,7 +272,7 @@ class MyApp extends StatelessWidget {
                             textAlign: TextAlign.left,
                             style: TextStyle(
                               color: Colors.white,
-                              fontSize: 18,
+                              fontSize: 16,
                               fontWeight: FontWeight.w800,
                             ),
                           ),
@@ -285,7 +285,7 @@ class MyApp extends StatelessWidget {
                             style: TextStyle(
                               backgroundColor: Colors.grey[800],
                               color: Colors.white,
-                              fontSize: 18,
+                              fontSize: 14,
                               fontWeight: FontWeight.w600,
                             ),
                           ),
@@ -297,7 +297,7 @@ class MyApp extends StatelessWidget {
                             textAlign: TextAlign.left,
                             style: TextStyle(
                               color: Colors.white,
-                              fontSize: 18,
+                              fontSize: 16,
                               fontWeight: FontWeight.w800,
                             ),
                           ),
@@ -310,7 +310,7 @@ class MyApp extends StatelessWidget {
                             style: TextStyle(
                               backgroundColor: Colors.grey[800],
                               color: Colors.white,
-                              fontSize: 18,
+                              fontSize: 14,
                               fontWeight: FontWeight.w600,
                             ),
                           ),
