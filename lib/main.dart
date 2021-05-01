@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.white12,
         body: SafeArea(
           child: Padding(
-            padding: const EdgeInsets.all(7.0),
+            padding: const EdgeInsets.all(4.5),
             child: Column(
               children: [
                 Expanded(
@@ -44,21 +44,24 @@ class MyApp extends StatelessWidget {
                           child: Column(
                             children: [
                               Expanded(
+                                flex: 2,
                                 child: Container(
-                                  alignment: Alignment.center,
+                                  alignment: Alignment.bottomCenter,
+                                  padding: EdgeInsets.all(4.5),
                                   child: Text(
                                     'Okedeyi Oluwafemi',
                                     style: TextStyle(
                                         color: Colors.white,
-                                        fontSize: 22,
-                                        fontStyle: FontStyle.normal,
+                                        fontSize: 20,
                                         fontWeight: FontWeight.bold),
                                   ),
                                 ),
                               ),
                               Expanded(
-                                flex: 3,
+                                flex: 4,
                                 child: Container(
+                                  padding: EdgeInsets.all(4.5),
+                                  alignment: Alignment.center,
                                   child: Text(
                                     aboutMe,
                                     textDirection: TextDirection.ltr,
@@ -237,7 +240,7 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
                 Expanded(
-                  flex: 2,
+                  flex: 1,
                   child: Container(
                     padding: EdgeInsets.all(4.5),
                     margin: EdgeInsets.all(7.0),
@@ -266,53 +269,65 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         Expanded(
-                          child: Text(
-                            'Twitter',
-                            textDirection: TextDirection.ltr,
-                            textAlign: TextAlign.left,
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 16,
-                              fontWeight: FontWeight.w800,
-                            ),
+                          child: Row(
+                            children: [
+                              Expanded(
+                                child: Text(
+                                  'Twitter',
+                                  textDirection: TextDirection.ltr,
+                                  textAlign: TextAlign.left,
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.w800,
+                                  ),
+                                ),
+                              ),
+                              Expanded(
+                                child: Text(
+                                  '\t@Femi_Okedeyi',
+                                  textDirection: TextDirection.ltr,
+                                  textAlign: TextAlign.left,
+                                  style: TextStyle(
+                                    backgroundColor: Colors.grey[800],
+                                    color: Colors.white,
+                                    fontSize: 14,
+                                    fontWeight: FontWeight.w600,
+                                  ),
+                                ),
+                              ),
+                            ],
                           ),
                         ),
                         Expanded(
-                          child: Text(
-                            '\t@Femi_Okedeyi',
-                            textDirection: TextDirection.ltr,
-                            textAlign: TextAlign.left,
-                            style: TextStyle(
-                              backgroundColor: Colors.grey[800],
-                              color: Colors.white,
-                              fontSize: 14,
-                              fontWeight: FontWeight.w600,
-                            ),
-                          ),
-                        ),
-                        Expanded(
-                          child: Text(
-                            'GitHub',
-                            textDirection: TextDirection.ltr,
-                            textAlign: TextAlign.left,
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 16,
-                              fontWeight: FontWeight.w800,
-                            ),
-                          ),
-                        ),
-                        Expanded(
-                          child: Text(
-                            '\t@Vader-Femi',
-                            textDirection: TextDirection.ltr,
-                            textAlign: TextAlign.left,
-                            style: TextStyle(
-                              backgroundColor: Colors.grey[800],
-                              color: Colors.white,
-                              fontSize: 14,
-                              fontWeight: FontWeight.w600,
-                            ),
+                          child: Row(
+                            children: [
+                              Expanded(
+                                child: Text(
+                                  'GitHub',
+                                  textDirection: TextDirection.ltr,
+                                  textAlign: TextAlign.left,
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.w800,
+                                  ),
+                                ),
+                              ),
+                              Expanded(
+                                child: Text(
+                                  '\t@Vader-Femi',
+                                  textDirection: TextDirection.ltr,
+                                  textAlign: TextAlign.left,
+                                  style: TextStyle(
+                                    backgroundColor: Colors.grey[800],
+                                    color: Colors.white,
+                                    fontSize: 14,
+                                    fontWeight: FontWeight.w600,
+                                  ),
+                                ),
+                              ),
+                            ],
                           ),
                         ),
                       ],
